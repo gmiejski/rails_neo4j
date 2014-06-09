@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba192fc1-e669-4f3f-b5fb-ddd7e55eed4d" name="Default" comment="Movie creation with neo4j.&#10;">
+    <list default="true" id="ba192fc1-e669-4f3f-b5fb-ddd7e55eed4d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/movie.rb" afterPath="$PROJECT_DIR$/app/models/movie.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BD2-Neo4j.iws" />
@@ -75,7 +74,7 @@
       <file leaf-file-name="movie.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.3083512" vertical-offset="0" max-vertical-offset="612">
+            <state line="21" column="25" selection-start="853" selection-end="853" vertical-scroll-proportion="0.49892932" vertical-offset="145" max-vertical-offset="846">
               <folding />
             </state>
           </provider>
@@ -108,8 +107,8 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140609160125_create_movies.rb" />
         <option value="$PROJECT_DIR$/neo_commends.txt" />
-        <option value="$PROJECT_DIR$/app/models/movie.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/models/movie.rb" />
       </list>
     </option>
   </component>
@@ -420,7 +419,11 @@
       <created>1402334535767</created>
       <updated>1402334535767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Seeds completed with neo4j.">
+      <created>1402336347870</created>
+      <updated>1402336347870</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -464,7 +467,8 @@
     <MESSAGE value="Neography added." />
     <MESSAGE value="Neography added.&#10;&#10;" />
     <MESSAGE value="Movie creation with neo4j." />
-    <option name="LAST_COMMIT_MESSAGE" value="Movie creation with neo4j." />
+    <MESSAGE value="Seeds completed with neo4j." />
+    <option name="LAST_COMMIT_MESSAGE" value="Seeds completed with neo4j." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -605,7 +609,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.3083512" vertical-offset="0" max-vertical-offset="612">
+        <state line="21" column="25" selection-start="853" selection-end="853" vertical-scroll-proportion="0.49892932" vertical-offset="145" max-vertical-offset="846">
           <folding />
         </state>
       </provider>
