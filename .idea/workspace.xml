@@ -74,7 +74,7 @@
       <file leaf-file-name="movie.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="25" selection-start="853" selection-end="853" vertical-scroll-proportion="0.49892932" vertical-offset="145" max-vertical-offset="846">
+            <state line="21" column="21" selection-start="843" selection-end="843" vertical-scroll-proportion="0.34689507" vertical-offset="216" max-vertical-offset="846">
               <folding />
             </state>
           </provider>
@@ -423,7 +423,11 @@
       <created>1402336347870</created>
       <updated>1402336347870</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Movie liking added.">
+      <created>1402336912761</created>
+      <updated>1402336912761</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -468,7 +472,8 @@
     <MESSAGE value="Neography added.&#10;&#10;" />
     <MESSAGE value="Movie creation with neo4j." />
     <MESSAGE value="Seeds completed with neo4j." />
-    <option name="LAST_COMMIT_MESSAGE" value="Seeds completed with neo4j." />
+    <MESSAGE value="Movie liking added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Movie liking added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -609,7 +614,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="853" selection-end="853" vertical-scroll-proportion="0.49892932" vertical-offset="145" max-vertical-offset="846">
+        <state line="21" column="21" selection-start="843" selection-end="843" vertical-scroll-proportion="0.34689507" vertical-offset="216" max-vertical-offset="846">
           <folding />
         </state>
       </provider>
