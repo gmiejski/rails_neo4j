@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba192fc1-e669-4f3f-b5fb-ddd7e55eed4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/like.rb" afterPath="$PROJECT_DIR$/app/models/like.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -66,7 +65,7 @@
       <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.42398286" vertical-offset="0" max-vertical-offset="467">
+            <state line="16" column="46" selection-start="498" selection-end="498" vertical-scroll-proportion="0.6167024" vertical-offset="0" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
@@ -75,7 +74,7 @@
       <file leaf-file-name="movie.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="2" selection-start="296" selection-end="982" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1098">
+            <state line="51" column="5" selection-start="1606" selection-end="1975" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1098">
               <folding />
             </state>
           </provider>
@@ -109,8 +108,8 @@
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/models/movie.rb" />
         <option value="$PROJECT_DIR$/config/initializers/neography.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/like.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -445,7 +444,11 @@
       <created>1402340332737</created>
       <updated>1402340332737</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Like a like">
+      <created>1402341492878</created>
+      <updated>1402341492878</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -495,7 +498,8 @@
     <MESSAGE value="Creating Like node with every like." />
     <MESSAGE value="Collecting movie likers." />
     <MESSAGE value="Collecting movie likers.&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collecting movie likers.&#10;&#10;" />
+    <MESSAGE value="Like a like" />
+    <option name="LAST_COMMIT_MESSAGE" value="Like a like" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -620,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="2" selection-start="296" selection-end="982" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1098">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140609160053_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="5" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
@@ -641,9 +638,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="5" selection-start="1606" selection-end="1975" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.42398286" vertical-offset="0" max-vertical-offset="467">
+        <state line="16" column="46" selection-start="498" selection-end="498" vertical-scroll-proportion="0.6167024" vertical-offset="0" max-vertical-offset="594">
           <folding />
         </state>
       </provider>

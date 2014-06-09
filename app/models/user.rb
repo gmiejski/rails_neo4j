@@ -10,4 +10,18 @@ class User < ActiveRecord::Base
     @neo.add_label(node, 'User')
   }
 
+  def liked_movies
+    @neo = Neography::Rest.new
+    movies_nodes = @neo.execute_query("MATCH (user:User {id: #{self.id} }) - [:likes] -> (movie) RETURN movie")
+    movies = []
+    movies_nodes["data"].each do |first_array|
+      first_array.each do |second_array|
+        id = second_array["data"]["id"]
+        movies.append(Movie.find(id))
+      end
+    end
+    movies
+  end
+
+
 end
