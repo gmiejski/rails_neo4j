@@ -23,5 +23,22 @@ class User < ActiveRecord::Base
     movies
   end
 
+  def find_movie_friend
+    @neo = Neography::Rest.new
+    fiends_ids = []
+    movie_friends = @neo.execute_query("MATCH p=(user:User {id: #{self.id} }) - [:likes] -> (movie) <- [:likes] - (friend) RETURN extract ( n IN nodes(p)| n.id)")
+    movie_friends["data"].each do |first_array|
+      fiends_ids.append(first_array[0][-1])
+    end
+    User.find(most_common_value(fiends_ids))
+  end
+
+  private
+  def most_common_value(a)
+    a.group_by do |e|
+      e
+    end.values.max_by(&:size).first
+  end
+
 
 end

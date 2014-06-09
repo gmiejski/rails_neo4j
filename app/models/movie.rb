@@ -21,6 +21,7 @@ class Movie < ActiveRecord::Base
     raise 'movie node not found' if user_node.nil?
     relationship = @neo.create_relationship('likes', user_node, movie_node)
     @neo.set_relationship_properties(relationship, {:id => like.id})
+    'movie liked'
   }
 
   def add_like (user_id)
