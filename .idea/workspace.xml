@@ -74,7 +74,7 @@
       <file leaf-file-name="movie.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="843" selection-end="843" vertical-scroll-proportion="0.34689507" vertical-offset="216" max-vertical-offset="846">
+            <state line="27" column="40" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.34689507" vertical-offset="324" max-vertical-offset="954">
               <folding />
             </state>
           </provider>
@@ -427,7 +427,11 @@
       <created>1402336912761</created>
       <updated>1402336912761</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Deleted scope methods warnings">
+      <created>1402337036006</created>
+      <updated>1402337036006</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -473,7 +477,8 @@
     <MESSAGE value="Movie creation with neo4j." />
     <MESSAGE value="Seeds completed with neo4j." />
     <MESSAGE value="Movie liking added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Movie liking added." />
+    <MESSAGE value="Deleted scope methods warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted scope methods warnings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -614,7 +619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="843" selection-end="843" vertical-scroll-proportion="0.34689507" vertical-offset="216" max-vertical-offset="846">
+        <state line="27" column="40" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.34689507" vertical-offset="324" max-vertical-offset="954">
           <folding />
         </state>
       </provider>
