@@ -39,8 +39,16 @@ class Movie < ActiveRecord::Base
   end
 
   def likers
-    puts 'getting likes from movie'
-
+    @neo = Neography::Rest.new
+    likers_nodes = @neo.execute_query("MATCH (movie:Movie {id: #{self.id} }) <- [:likes] - (user) RETURN user")
+    likers = []
+    likers_nodes["data"].each do |first_array|
+      first_array.each do |second_array|
+        id = second_array["data"]["id"]
+        likers.append(User.find(id))
+      end
+    end
+    likers
   end
 
 

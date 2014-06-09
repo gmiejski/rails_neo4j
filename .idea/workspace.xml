@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba192fc1-e669-4f3f-b5fb-ddd7e55eed4d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/movie.rb" afterPath="$PROJECT_DIR$/app/models/movie.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/neography.rb" afterPath="$PROJECT_DIR$/config/initializers/neography.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BD2-Neo4j.iws" />
@@ -74,7 +75,16 @@
       <file leaf-file-name="movie.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="40" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.34689507" vertical-offset="324" max-vertical-offset="954">
+            <state line="48" column="9" selection-start="1950" selection-end="1950" vertical-scroll-proportion="0.6252677" vertical-offset="572" max-vertical-offset="1098">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="neography.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/neography.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="41" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
               <folding />
             </state>
           </provider>
@@ -103,11 +113,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/initializers/neography.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140609160125_create_movies.rb" />
         <option value="$PROJECT_DIR$/neo_commends.txt" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/neography.rb" />
         <option value="$PROJECT_DIR$/app/models/movie.rb" />
       </list>
     </option>
@@ -173,7 +183,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -187,11 +197,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,7 +441,11 @@
       <created>1402337036006</created>
       <updated>1402337036006</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Creating Like node with every like.">
+      <created>1402337970559</created>
+      <updated>1402337970569</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -478,7 +492,8 @@
     <MESSAGE value="Seeds completed with neo4j." />
     <MESSAGE value="Movie liking added." />
     <MESSAGE value="Deleted scope methods warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted scope methods warnings" />
+    <MESSAGE value="Creating Like node with every like." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Like node with every like." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -561,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/neography.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="562" selection-end="562" vertical-scroll-proportion="0.5121951" vertical-offset="0" max-vertical-offset="492">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140609160053_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="5" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
@@ -617,9 +625,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/neography.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="41" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="40" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.34689507" vertical-offset="324" max-vertical-offset="954">
+        <state line="48" column="9" selection-start="1950" selection-end="1950" vertical-scroll-proportion="0.6252677" vertical-offset="572" max-vertical-offset="1098">
           <folding />
         </state>
       </provider>
