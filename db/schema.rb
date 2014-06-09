@@ -23,7 +23,6 @@ ActiveRecord::Schema.define(version: 20140609160244) do
 
   create_table "movies", force: true do |t|
     t.string   "title"
-    t.integer  "year"
     t.string   "director"
     t.datetime "created_at"
     t.datetime "updated_at"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails BD2-Neo4j: test" uuid="4d063942-4dd5-49ff-bcc3-b0f2b1905664">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails BD2-Neo4j: development" uuid="c3c8499b-d4d0-4741-bce5-cf8b8e684bca">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
