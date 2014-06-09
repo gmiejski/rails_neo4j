@@ -3,3 +3,5 @@ clear database:
 START n=node(*)
 OPTIONAL MATCH (n)-[r]-()
 delete n,r;
+
+sudo service neo4j-service start
