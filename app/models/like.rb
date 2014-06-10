@@ -15,7 +15,7 @@ class Like < ActiveRecord::Base
     raise 'like node not found' if like_node.nil?
     relationship = @neo.create_relationship('likes', user_node, like_node)
     @neo.set_relationship_properties(relationship, {:id => like.id})
-    'you liked this like!'
+    like
   }
 
 end

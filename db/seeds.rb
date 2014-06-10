@@ -8,25 +8,27 @@
 
 @neo = Neography::Rest.new
 
-u1 = User.create(name: 'Grzesiek M.')
-u1_node = @neo.create_node(id: u1.id, name: u1.name)
-u2 = User.create(name: 'Krzysiek T.')
-u2_node = @neo.create_node(id: u2.id, name: u2.name)
-@neo.add_label(u1_node, 'User')
-@neo.add_label(u2_node, 'User')
+u1 = User.create_neo('Grzesiek M.')
+u2 = User.create_neo('Krzysiek T.')
+u3 = User.create_neo('Kolega XY.')
+u4 = User.create_neo('Koleżanka YX.')
 
-#User.create(name: 'Krzysiek R.')
-#User.create(name: 'Krzysiek Z.')
-#User.create(name: 'Krzysiek E.')
-#User.create(name: 'Krzysiek P.')
-#User.create(name: 'Łukasz S.')
+m1 = Movie.create_neo('Matrix', 'Reżyser')
+m2 = Movie.create_neo('Matrix 2', 'Reżyser ten sam chyba')
+m3 = Movie.create_neo('Dzieci z Bullerbyn', 'AKtośTam')
+m4 = Movie.create_neo('Pan Tadeusz', 'Adaptacja czyjaś')
 
-m1 = Movie.create(title: 'Matrix', director: 'Ktoś tam')
-m2 = Movie.create(title: 'Matrix 2', director: 'Ktoś tam')
+u1.like_movie(m1.id)
+u1.like_movie(m2.id)
 
-m1_node = @neo.create_node(id: m1.id, title: m1.title, director: m1.director)
-m2_node = @neo.create_node(id: m2.id, title: m2.title, director: m2.director)
+l1 = u2.like_movie(m1.id)
+l2 = u2.like_movie(m2.id)
+u2.like_movie(m4.id)
 
-@neo.add_label(m1_node, 'Movie')
-@neo.add_label(m2_node, 'Movie')
+u3.like_movie(m1.id)
+u3.like_movie(m3.id)
 
+u4.like_movie(m3.id)
+
+
+u2.like_like(l1.id)

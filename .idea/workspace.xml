@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba192fc1-e669-4f3f-b5fb-ddd7e55eed4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/movie.rb" afterPath="$PROJECT_DIR$/app/models/movie.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/like.rb" afterPath="$PROJECT_DIR$/app/models/like.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BD2-Neo4j.iws" />
@@ -30,7 +29,7 @@
       <file leaf-file-name="20140609160053_create_users.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20140609160053_create_users.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+            <state line="7" column="5" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -39,7 +38,7 @@
       <file leaf-file-name="20140609160125_create_movies.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20140609160125_create_movies.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+            <state line="10" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="288">
               <folding />
             </state>
           </provider>
@@ -57,7 +56,7 @@
       <file leaf-file-name="like.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/like.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+            <state line="19" column="0" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
               <folding />
             </state>
           </provider>
@@ -66,7 +65,16 @@
       <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="43" selection-start="983" selection-end="983" vertical-scroll-proportion="0.3245033" vertical-offset="393" max-vertical-offset="900">
+            <state line="35" column="0" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.4437086" vertical-offset="429" max-vertical-offset="1044">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="neo_commends.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neo_commends.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="17" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
               <folding />
             </state>
           </provider>
@@ -75,7 +83,7 @@
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="40" selection-start="118" selection-end="118" vertical-scroll-proportion="-1.44" vertical-offset="0" max-vertical-offset="144">
+            <state line="2" column="40" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="144">
               <folding />
             </state>
           </provider>
@@ -84,7 +92,7 @@
       <file leaf-file-name="movie.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="22" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1116">
+            <state line="40" column="8" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
               <folding />
             </state>
           </provider>
@@ -93,7 +101,7 @@
       <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="31" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="684">
+            <state line="31" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="702">
               <folding />
             </state>
           </provider>
@@ -114,13 +122,13 @@
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20140609160125_create_movies.rb" />
-        <option value="$PROJECT_DIR$/neo_commends.txt" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/config/initializers/neography.rb" />
-        <option value="$PROJECT_DIR$/app/models/like.rb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/neo_commends.txt" />
         <option value="$PROJECT_DIR$/app/models/movie.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/like.rb" />
       </list>
     </option>
   </component>
@@ -156,6 +164,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -209,7 +218,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,6 +227,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: BD2-Neo4j">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -467,7 +476,19 @@
       <created>1402342049762</created>
       <updated>1402342049762</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Find movie friend">
+      <created>1402345552540</created>
+      <updated>1402345552540</updated>
+    </task>
+    <task id="LOCAL-00014" summary="More commands!">
+      <created>1402345684607</created>
+      <updated>1402345684607</updated>
+    </task>
+    <task id="LOCAL-00015" summary="seeds.rb updated. Simple refactor and optimisation.">
+      <created>1402403059600</created>
+      <updated>1402403059600</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -475,7 +496,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2564784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26312292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -520,12 +541,141 @@
     <MESSAGE value="Like a like" />
     <MESSAGE value="Collecting liked movies." />
     <MESSAGE value="Update readme." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update readme." />
+    <MESSAGE value="Find movie friend" />
+    <MESSAGE value="More commands!" />
+    <MESSAGE value="seeds.rb updated. Simple refactor and optimisation." />
+    <option name="LAST_COMMIT_MESSAGE" value="seeds.rb updated. Simple refactor and optimisation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140609160053_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140609160125_create_movies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140609160244_create_likes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/like.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="10" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neo_commends.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140609160053_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140609160125_create_movies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140609160244_create_likes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/like.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="10" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neo_commends.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140609160053_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
@@ -563,16 +713,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="558">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="558" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -584,16 +730,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="558">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="558" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -603,23 +745,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140609160244_create_likes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140609160125_create_movies.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neo_commends.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="467">
           <folding />
         </state>
       </provider>
@@ -633,16 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="60" selection-start="985" selection-end="989" vertical-scroll-proportion="0.3318078" vertical-offset="233" max-vertical-offset="774">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="684">
-          <folding />
-        </state>
+        <state line="21" column="60" selection-start="985" selection-end="989" vertical-scroll-proportion="0.3318078" vertical-offset="233" max-vertical-offset="774" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140609160053_create_users.rb">
@@ -652,30 +771,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/like.rb">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+        <state line="2" column="40" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="144">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/neo_commends.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="118" selection-end="118" vertical-scroll-proportion="-1.44" vertical-offset="0" max-vertical-offset="144">
+        <state line="2" column="0" selection-start="17" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140609160244_create_likes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1116">
+        <state line="40" column="8" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/like.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="43" selection-start="983" selection-end="983" vertical-scroll-proportion="0.3245033" vertical-offset="393" max-vertical-offset="900">
+        <state line="35" column="0" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.4437086" vertical-offset="429" max-vertical-offset="1044">
           <folding />
         </state>
       </provider>

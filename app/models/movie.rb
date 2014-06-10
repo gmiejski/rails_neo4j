@@ -5,6 +5,7 @@ class Movie < ActiveRecord::Base
     @neo = Neography::Rest.new
     node = @neo.create_node(id: movie.id, title: movie.title, director: movie.director)
     @neo.add_label(node, 'Movie')
+    movie
   }
 
   scope :add_like, ->(movie_id, user_id) {
@@ -21,7 +22,7 @@ class Movie < ActiveRecord::Base
     raise 'movie node not found' if user_node.nil?
     relationship = @neo.create_relationship('likes', user_node, movie_node)
     @neo.set_relationship_properties(relationship, {:id => like.id})
-    'movie liked'
+    like
   }
 
   def add_like (user_id)
@@ -37,6 +38,7 @@ class Movie < ActiveRecord::Base
     raise 'movie node not found' if user_node.nil?
     relationship = @neo.create_relationship('likes', user_node, movie_node)
     @neo.set_relationship_properties(relationship, {:id => like.id})
+    like
   end
 
   def likers
